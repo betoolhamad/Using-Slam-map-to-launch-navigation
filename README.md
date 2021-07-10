@@ -13,7 +13,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 **Note:** The TurtleBot3 Model I was chosen is TurtleBot3 Burger.
 
 <h2>Run Navigation Node :</h2>
-To launch the navigation node, run this command:   
+To launch the navigation node to make robot navigate, run this command:   
 
 ```
 $ export TURTLEBOT3_MODEL=burger
@@ -28,7 +28,7 @@ Here, we should use the Initial Pose Estimation button in the up bar in Rviz bef
 
 
 <h2>2D Navigation Goal :</h2>
-Here we should set the destination of the robot, using the 2D navigation goal button via determining the green arrow at the specific destination we want the robot to go to it. Which the start point of the arrow represents the x, y points and the end of the arrow represents the orientation.  After that, the TurtulBot3 will move.    <br></br>
+Here we should set the destination of the robot, using the 2D navigation goal button via determining the green arrow at the specific destination we want the robot to go to it. Which the start point of the arrow represents the x, y points and the end of the arrow represents the orientation.  After we do that, the TurtulBot3 will move.    <br></br>
 
 The final result will be :  
 
